@@ -1,0 +1,78 @@
+ 1630  mkdir git-majonez/
+ 1631  ls
+ 1632  cd git-majonez/
+ 1633  git init
+ 1634  touch main.cpp
+ 1635  code main.cpp 
+ 1636  ls
+ 1637  g++ main.cpp -o main.out
+ 1638  code main.cpp 
+ 1639  g++ main.cpp -o main.out
+ 1640  ./main.out 
+ 1641  ls
+ 1642  rm -f main.out
+ 1643  ls
+ 1644  ls -l
+ 1645  add main.cpp 
+ 1646  git add main.cpp 
+ 1647  git commit -m "Initial commit"
+ 1648  code main.cpp 
+ 1649  git commit -m "Farewell changed"
+ 1650  git add main.cpp 
+ 1651  git commit -m "Farewell changed"
+ 1652  git log
+ 1653  git log --oneline 
+ 1654  git remote add origin https://github.com/michantoniuk/git-majonez.git
+ 1655  git branch -M main
+ 1656  git branch
+ 1657  git branch -M master
+ 1658  git branch
+ 1659  git push -u origin master
+ 1660  git branch cs
+ 1661  git checkout cs
+ 1662  git log
+ 1663  git reset 312a1f23f73 --hard
+ 1664  git log
+ 1665  git reset 9bfb32e6854c --hard
+ 1666  code main.cpp 
+ 1667  git status
+ 1668  git add .
+ 1669  git add *
+ 1670  git status
+ 1671  git commit -m "Greetings"
+ 1672  git push origin cs
+ 1673  git branch
+ 1674  git checkout master
+ 1675  git merge cs
+ 1676  git add main.cpp 
+ 1677  g++ main.cpp -o main.out
+ 1678  ./main.out 
+ 1679  history
+ 1680  history | tail -n40
+ 1681  history | tail -n50
+ 1682  history | tail -n53 > history.txt
+ 1683  cat history.txt 
+ 1684  git add history.txt 
+ 1685  git status
+ 1686  git log
+ 1687  gitk
+ 1688  git log --oneline --graph
+ 1689  git status
+ 1690  git restore history.txt
+ 1691  git status
+ 1692  git commit main.cpp
+ 1693  git reset history.txt
+ 1694  git status
+ 1695  git commit
+ 1696  git log
+ 1697  history
+ 1698  history | tail -n68 > history.txt
+ 1699  git status
+ 1700  git add history.txt 
+ 1701  cat history.txt
+ 1702  git reset history.txt
+ 1703  history | tail -n71 > history.txt
+ 1704  cat history.txt 
+ 1705  history | tail -n75 > history.txt
+ 1706  cat history.txt 
+ 1707  history | tail -n78 > history.txt
